@@ -48,23 +48,6 @@ li{
     justify-content: space-evenly;
     text-align: center;
 }
-.nav-items{
-    border-radius: 15px;
-    background: #7101bc;
-    text-shadow: 3px 3px 8px #43016f,
-    -3px -3px 8px #9f01ff;
-    width: 100px;
-}
-
-.nav-items:hover{
-    box-shadow: 3px 3px 8px #43016f,
-    -3px -3px 8px #9f01ff;
-    cursor: pointer;
-}
-.nav-items:active{
-    box-shadow: inset -3px -3px 8px #6001a0,
-                inset 3px 3px 8px #8201d8;
-}
 
 #branding{
     text-align: center;
@@ -153,12 +136,13 @@ picture{
 }
 
 #technologies, #projects, #blogs, footer{
-    margin-top: 5%;
-    width: 100%;
+    background-color: #43016f;
+    width: 40em;
+    margin: 1em;
+    padding: 1em;
+    color: whitesmoke;
     flex-direction: column;
-    color: whitesmoke
 }
-
 
 footer{
     flex-direction: row;
@@ -168,4 +152,8 @@ button{
     padding: 1em;
     border-radius: 10px;
     cursor: pointer;
+}
+a{
+    color: whitesmoke;
+    font-weight: bold;
 }

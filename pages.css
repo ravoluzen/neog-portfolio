@@ -1,0 +1,85 @@
+html{
+    font-family: "Epilogue";
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    scrollbar-width: none;
+}
+@font-face {
+    font-family: 'Epilogue';
+    src: url('./Epilogue-VariableFont_wght.ttf');
+}
+nav {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul{
+    flex: 1 0 45%;
+}
+li{
+    list-style: none;
+    height: 40px;
+    width: 150px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 90%;
+    margin:0;
+    left:10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7101bc;
+}
+.container, .projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    color: whitesmoke;
+}
+
+.projects, .blogs, footer{
+    background-color: #43016f;
+    width: 40em;
+    margin: 1em;
+    padding: 1em;
+}
+
+span{
+    margin: 1em;
+    padding: 1em;
+    color: whitesmoke;
+}
+
+a{
+    color: whitesmoke;
+}
+button{
+    border: none;
+    padding: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.socials{
+    margin-top: 2em;
+}
